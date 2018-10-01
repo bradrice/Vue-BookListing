@@ -18,9 +18,11 @@ export default {
             bookAuthor: ''
         }
     },
-    bookSubmit(bookTitle, bookAuthor){
+    methods: {
+        bookSubmit(bookTitle, bookAuthor){
         this.$emit('addBook', bookTitle, bookAuthor);
-    }
+        }
+    } 
 }
 </script>
 
