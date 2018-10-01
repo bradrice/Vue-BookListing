@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style>
-hs, h2 {
+h1, h2 {
     font-weight: normal;
 }
 </style>
